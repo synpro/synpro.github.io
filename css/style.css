@@ -255,7 +255,7 @@ ul#menu-main > li > a:hover {
 ---------------------------------------------------------------------------------------------------------- */
 #headerwrap {
   width: 100%;
-  background: url("http://farm9.staticflickr.com/8319/8070823747_eb96d940d5_k.jpg") #0b333f no-repeat center -300px fixed;
+  background: url("http://farm9.staticflickr.com/8319/8070823747_eb96d940d5_k.jpg") #0b333f no-repeat center -80px fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -351,7 +351,7 @@ section.single-page h1 {
   /* 36px */ }
 
 #feature {
-  background: url("../img/yellow.png") repeat-x 0 0;
+  background: url("../img/green.png") repeat-x 0 0;
   height: 406px;
   z-index: 500;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);

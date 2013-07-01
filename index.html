@@ -36,12 +36,6 @@ body {
 <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
 <!-- Load LocalScroll -->
 <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
-<!-- prettyPhoto Initialization -->
-<script type="text/javascript" charset="utf-8">
-      $(document).ready(function(){
-        $("a[rel^='prettyPhoto']").prettyPhoto();
-      });
-    </script>
 </head>
 <body>
 <!--******************** NAVBAR ********************-->
@@ -75,20 +69,6 @@ body {
 <div id="headerwrap">
   <header class="clearfix">
   <h1><span>EHLO<sup>[<a href="http://www.ietf.org/rfc/rfc2821.txt" target="_blank">1</a>]</sup></span> My name is Lars</h1>
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <h2>Find me on the net</h2>
-          <ul class="icon">
-            <li><a href="#" target="_blank"><i class="icon-pinterest-circled"></i></a></li>
-            <li><a href="#" target="_blank"><i class="icon-facebook-circled"></i></a></li>
-            <li><a href="#" target="_blank"><i class="icon-twitter-circled"></i></a></li>
-            <li><a href="#" target="_blank"><i class="icon-gplus-circled"></i></a></li>
-            <li><a href="#" target="_blank"><i class="icon-skype-circled"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
   </header>
 </div>
 <!--******************** Feature ********************-->
@@ -249,10 +229,10 @@ body {
       <div class="blockquote-wrapper">
         <blockquote class="mega">
           <div class="span4">
-            <p class="cite">John Doe &amp; Sons:</p>
+            <p class="cite">Peter Pan</p>
           </div>
           <div class="span8">
-            <p class="alignright">"We highly appreciate the enthusiasm and creative talent of the people at Legend!"</p>
+            <p class="alignright">"Internet!"</p>
           </div>
         </blockquote>
       </div>
@@ -262,12 +242,11 @@ body {
   </div>
   <!-- /.container -->
 </section>
-<hr>
 <!--******************** News Section ********************-->
 <section id="news" class="single-page scrollblock">
   <div class="container">
     <div class="align"><i class="icon-pencil-circled"></i></div>
-    <h1>Our Blog</h1>
+    <h1>Blog</h1>
     <!-- Three columns -->
     <div class="row">
       <article class="span4 post"> <img class="img-news" src="img/blog_img-01.jpg" alt="">
@@ -370,42 +349,42 @@ body {
 <section id="contact" class="single-page scrollblock">
   <div class="container">
     <div class="align"><i class="icon-mail-2"></i></div>
-    <h1>Contact us now!</h1>
-    <div class="row">
-      <div class="span12">
-        <div class="cform" id="theme-form">
-          <form action="#" method="post" class="cform-form">
-            <div class="row">
-              <div class="span6"> <span class="your-name">
-                <input type="text" name="your-name" placeholder="Your Name" class="cform-text" size="40" title="your name">
-                </span> </div>
-              <div class="span6"> <span class="your-email">
-                <input type="text" name="your-email" placeholder="Your Email" class="cform-text" size="40" title="your email">
-                </span> </div>
-            </div>
-            <div class="row">
-              <div class="span6"> <span class="company">
-                <input type="text" name="company" placeholder="Your Company" class="cform-text" size="40" title="company">
-                </span> </div>
-              <div class="span6"> <span class="website">
-                <input type="text" name="website" placeholder="Your Website" class="cform-text" size="40" title="website">
-                </span> </div>
-            </div>
-            <div class="row">
-              <div class="span12"> <span class="message">
-                <textarea name="message" class="cform-textarea" cols="40" rows="10" title="drop us a line."></textarea>
-                </span> </div>
-            </div>
-            <div>
-              <input type="submit" value="Send message" class="cform-submit pull-left">
-            </div>
-            <div class="cform-response-output"></div>
-          </form>
+    <h1>Contact</h1>
+
+    <div class="container">
+
+      <h3>SynPro.io</h3>
+      <p>
+        Lars Wolff
+      </p>
+      <h4>Office and address</h4>
+      <p id="office">
+        Simarplatz 6<br>
+        50825 Köln<br>
+      </p>
+      <h4>Net</h4>
+      <ul>
+        <li><a href=" class="link">XING Profile</a></li>
+        <li><a href="http://www.linkedin.com/in/synpro" class="link">LinkedIn Profile</a></li>
+        <li><a href="http://www.amazon.de/gp/registry/wishlist/A1PM60H3P75K" class="link">Amazon Wishlist</a></li>
+        <li><a href="" class="link">Facebook</a></li>
+      </ul>
+
+
+      <div class="row">
+        <div class="span12">
+          <h2>Find me on the net</h2>
+          <ul class="icon">
+            <li><a href="http://www.xing.com/profile/Lars_Wolff" target="_blank"><i class="icon-xing-circled"></i></a></li>
+            <li><a href="http://de.linkedin.com/in/synprolarswolff" target="_blank"><i class="icon-linkedin-circled"></i></a></li>
+            <li><a href="http://www.facebook.com/pages/Cologne-Germany/SynPro/244612200686" target="_blank"><i class="icon-facebook-circled"></i></a></li>
+            <li><a href="https://twitter.com/larsvegas" target="_blank"><i class="icon-twitter-circled"></i></a></li>
+            <li><a href="http://www.amazon.de/gp/registry/wishlist/A1PM60H3P75K" target="_blank"><i class="icon-amazon-circled"></i></a></li>
+          </ul>
         </div>
       </div>
-      <!-- ./span12 -->
     </div>
-    <!-- /.row -->
+
   </div>
   <!-- /.container -->
 </section>
@@ -413,7 +392,7 @@ body {
 <div class="footer-wrapper">
   <div class="container">
     <footer>
-      <small>&copy; 2013 Inbetwin Network. All rights reserved.</small>
+      <small>&copy; 2013 SynPro.io - Lars Woll. All rights reserved.</small>
     </footer>
   </div>
   <!-- ./container -->
