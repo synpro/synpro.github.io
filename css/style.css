@@ -4,25 +4,11 @@
  * Copyright 2013
  * Created by: Inbetwin Network
  * URL: http://inbetw.in
- * Designed and built based on Twitter Bootstrap. */
-/*
+ * Designed and built based on Twitter Bootstrap. 
 ===========================
-CONTENTS:
 
-01 Sensible defaults
-02 Typography
-03 Non-semantic
-04 Navbar
-05 Single-Page Sections
-06 Footer
-07 Bootstrap Carousel
-08 Buttons
-09 Media queries 
-===========================
-*/
-/**
-SASS COLORS
-**/
+ * Sass variables
+ */
 /* ---------------------------------------------------------------------------------------------------------- 
 01 Sensible defaults ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
@@ -44,11 +30,11 @@ body {
   font-family: 'Quattrocento', serif; }
 
 ::-moz-selection {
-  background: #f0bf00;
+  background: #d3e13c;
   color: #333; }
 
 ::selection {
-  background: #f0bf00;
+  background: #d3e13c;
   color: #333; }
 
 /*---------- FORMS ----------*/
@@ -68,14 +54,12 @@ input, button, select, textarea {
 02 Typography -----------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 /*
-
 14 / 16 =     0.875em     (14px equivalent)
 16 / 16 =     1em       (16px equivalent)
 18 / 16 =     1.125em     (18px equivalent)
 21 / 16 =     1.3125em    (21px equivalent)
 24 / 16 =     1.5em       (24px equivalent)
 30 / 16 =     1.875em     (30px equivalent)
-
 */
 p {
   font-size: 1em;
@@ -92,10 +76,10 @@ ul, ol {
   margin: 0 0 1.5em 0; }
 
 a:link, a:visited {
-  color: #F1505A; }
+  color: darkgrey; }
 
 a:hover, a:active {
-  color: #F1505A;
+  color: #d3e13c;
   text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -174,7 +158,7 @@ em {
   font-family: 'Patua One', cursive; }
 
 .more-link:link, .more-link:visited {
-  color: #f0bf00;
+  color: #d3e13c;
   text-transform: uppercase; }
 
 /* ---------------------------------------------------------------------------------------------------------- 
@@ -222,7 +206,7 @@ em {
 
 .navbar .brand a:hover {
   text-decoration: none;
-  color: #f0bf00;
+  color: #d3e13c;
   transition: color .15s linear;
   -webkit-transition: color .15s linear;
   -moz-transition: color .15s linear; }
@@ -231,42 +215,47 @@ em {
   outline: none; }
 
 .navbar-inner {
-  min-height: 4.75em; }
+  min-height: 6em; }
 
 .navbar-inverse .navbar-inner {
   background-repeat: repeat;
-  background-color: #0b333f;
-  border-color: #f0bf00; }
+  background-color: white;
+  border-bottom: 5px solid #d3e13c; }
 
 .navbar-wrapper {
   overflow: hidden;
   /* No fixed height, will break collapsible nav */ }
 
 #menu-main {
-  margin-top: 1.125em; }
+  margin-top: 3em; }
 
 ul#menu-main > li > a {
   font-family: 'Patua One', cursive;
   font-weight: normal;
   font-size: 1em;
-  color: #fff; }
+  color: black; }
 
 ul#menu-main > li > a:hover {
-  background: #f0bf00;
+  background: #d3e13c;
   padding: 9px 15px;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px; }
 
-.navbar-inverse .brand, .navbar-inverse .nav > li > a {
-  text-shadow: none; }
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+  text-shadow: none;
+  color: darkgrey; }
+
+.navbar-inverse .nav > li > a.hover {
+  color: black; }
 
 /* ---------------------------------------------------------------------------------------------------------- 
 05 Single-Page Sections ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 #headerwrap {
   width: 100%;
-  background: url(../img/top-bg.jpg) #0b333f no-repeat center center fixed;
+  background: url("http://farm9.staticflickr.com/8319/8070823747_eb96d940d5_k.jpg") #0b333f no-repeat center -300px fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -292,7 +281,7 @@ ul#menu-main > li > a:hover {
   text-shadow: 1px 1px 1px #333333; }
 
 #headerwrap h1 span {
-  color: #f0bf00; }
+  color: #d3e13c; }
 
 #headerwrap input[type=text] {
   background: #e3e7e4;
@@ -326,7 +315,7 @@ ul#menu-main > li > a:hover {
   margin: 0;
   border: 0;
   text-transform: none;
-  background: #f0bf00 !important;
+  background: #d3e13c !important;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px; }
@@ -467,7 +456,7 @@ section#services .align .sev_icon {
   text-align: center;
   margin: 10px 0 20px 0;
   font-size: 0.6em;
-  color: #F0BF00; }
+  color: #d3e13c; }
 
 section#services .span3 {
   background: #e9e9e9;
@@ -642,7 +631,7 @@ section#team .align, section#contact .align {
   display: block;
   border: 0;
   text-transform: none;
-  background: #f0bf00 !important;
+  background: #d3e13c !important;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -781,7 +770,7 @@ footer p {
   display: block;
   border: 0;
   text-transform: none;
-  background: #f0bf00 !important;
+  background: #d3e13c !important;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
