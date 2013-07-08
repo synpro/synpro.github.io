@@ -1032,3 +1032,14 @@ footer p {
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   /* Styles */ }
+/** synpro customs **/
+#disclaimer,
+#discplaimer p {
+  font-size: 10px;
+  color: darkgrey;
+  text-align: justify; }
+
+#disclaimer h3 {
+  color: darkgrey;
+  font: 12px bold;
+  text-align: left; }

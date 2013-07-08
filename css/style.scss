@@ -1090,3 +1090,20 @@ footer p {
   @media only screen  and (min-width : 1224px) {
 /* Styles */
   }
+
+
+
+/** synpro customs **/
+#disclaimer,
+#discplaimer p {
+  font-size: 10px;
+  color: $synproGrey;
+  text-align: justify;
+}
+
+#disclaimer h3 {
+  color: $synproGrey;
+  font: 12px bold;
+  text-align: left;
+}
+
