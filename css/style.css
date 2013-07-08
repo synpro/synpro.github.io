@@ -260,7 +260,7 @@ ul#menu-main > li > a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 600px;
+  min-height: 400px;
   margin-top: -60px;
   padding-top: 160px;
   text-align: center; }
@@ -543,11 +543,14 @@ article .inside {
   clear: right; }
 
 /* Team and Contact */
+section#friendsandlovedones,
 section#team, section#contact {
   color: #e4e5e2;
   background: #312A1E; }
 
-section#team .align, section#contact .align {
+section#friendsandlovedones .align,
+section#team .align,
+section#contact .align {
   font-size: 6em;
   text-align: center; }
 
@@ -688,7 +691,7 @@ footer {
   font-weight: bold; }
 
 footer p {
-  margin-top: -130px; }
+  /* margin-top: -130px; */ }
 
 /* ---------------------------------------------------------------------------------------------------------- 
 07 Bootstrap Carousel ------------------------------------------------------------
