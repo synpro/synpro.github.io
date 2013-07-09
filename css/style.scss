@@ -197,7 +197,7 @@ em {
 .navbar .brand {
   margin-left:0;
   padding: 0;
-  margin-top: 1.05em;
+  margin-top: 0em;
 }
 .navbar .brand a {
   padding: 0;
@@ -841,8 +841,9 @@ footer p {
  width: 100%;
 }
  .navbar .brand {
- margin-top: 0;
+  margin-top: 0;
 }
+
  .navbar .btn-navbar {
  margin-top: 0;
 }
@@ -1110,3 +1111,16 @@ footer p {
 #disclaimerContent {
   display: none;
 }
+
+.navbar a.brand  {
+  display: block;
+  width: 151px;
+  height: 55px;
+  background: url(../img/synpro.io-logo.gif);
+}
+
+.navbar a span {
+  display: none;
+}
+
+
