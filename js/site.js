@@ -4,13 +4,12 @@ jQuery(document).ready(function($) {
 
   // Localscrolling
   $('#nav-main, .brand').localScroll();
-  $('#news, .container').localScroll();
+  //$('#news, .container').localScroll();
 
   // disclaimer
-  $(".link").click(function() {
-    $(".disclaimerContent").toggle();
+  $("a#toggleDisclaimer").click(function() {
+    $("#disclaimerContent").toggle();
     return true;
   });
 
-  $('#news, .container').localScroll();
 });
