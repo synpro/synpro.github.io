@@ -1,10 +1,10 @@
 jQuery(document).ready(function($) {
   // scrolling
-  //$('#nav-main').scrollspy()
+  $('#nav-main').scrollspy();
 
   // Localscrolling
   $('#nav-main, .brand').localScroll();
-  //$('#news, .container').localScroll();
+  $('#news, .container').localScroll();
 
   // disclaimer
   $("a#toggleDisclaimer").click(function() {
