@@ -16,7 +16,8 @@ $white:       #fff;
 $darkgreen:   #0b333f;
 
 $imgVisual:             "../img/visual1.jpg";
-$imgBackgroundFeature : "../img/green.png";
+//$imgBackgroundFeature : "../img/green.png";
+$imgBackgroundFeature : "../img/green.jpg";
 
 
 
@@ -263,7 +264,7 @@ ul#menu-main > li > a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 400px;
+  min-height: 600px;
   margin-top: -60px;
   padding-top:160px;
   text-align:center;
@@ -475,7 +476,8 @@ section#services .span3:hover {
 
 section#testimonials {
   height:  647px;
-  background: url("../img/yellow_testimonial.png") repeat-x 0 0;
+  //background: url("../img/yellow_testimonial.png") repeat-x 0 0;
+  background: url($imgBackgroundFeature) repeat-x 0 0;
   padding: 0;
   color: #e4e5e2;
   z-index: 500;
