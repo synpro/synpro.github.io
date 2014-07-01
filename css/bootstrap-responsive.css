@@ -12,46 +12,46 @@
  *zoom: 1;
 }
 .clearfix:before, .clearfix:after {
-	display: table;
-	line-height: 0;
-	content: "";
+  display: table;
+  line-height: 0;
+  content: "";
 }
 .clearfix:after {
-	clear: both;
+  clear: both;
 }
 .hide-text {
-	font: 0/0 a;
-	color: transparent;
-	text-shadow: none;
-	background-color: transparent;
-	border: 0;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
 }
 .input-block-level {
-	display: block;
-	width: 100%;
-	min-height: 30px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
  @-ms-viewport {
  width: device-width;
 }
 .hidden {
-	display: none;
-	visibility: hidden;
+  display: none;
+  visibility: hidden;
 }
 .visible-phone {
-	display: none !important;
+  display: none !important;
 }
 .visible-tablet {
-	display: none !important;
+  display: none !important;
 }
 .hidden-desktop {
-	display: none !important;
+  display: none !important;
 }
 .visible-desktop {
-	display: inherit !important;
+  display: inherit !important;
 }
  @media (min-width: 768px) and (max-width: 979px) {
  .hidden-desktop {
@@ -82,14 +82,14 @@
 }
 }
 .visible-print {
-	display: none !important;
+  display: none !important;
 }
  @media print {
 .visible-print {
-	display: inherit !important;
+  display: inherit !important;
 }
 .hidden-print {
-	display: none !important;
+  display: none !important;
 }
 }
  @media (min-width: 1200px) {
