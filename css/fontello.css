@@ -216,11 +216,11 @@
 } /* '' */
 .icon-twitter:before {
   content: '\f309';
-  color: #30C5EA;
+/*  color: #30C5EA; */
 } /* '' */
 .icon-twitter-circled:before {
   content: '\f30a';
-  color: #30C5EA;
+/*  color: #30C5EA; */
 } /* '' */
 .icon-facebook:before {
   content: '\f30c';
