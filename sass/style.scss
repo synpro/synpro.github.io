@@ -348,7 +348,8 @@ ul.icon li:hover {
 section.single-page {
   padding: 4.75em 1.5em;
 }
-section.single-page h1 {
+section.single-page h1,
+section.single-page h2 {
   text-align: center;
   font-family: $fontFamilyOne;
   margin-bottom: 2em; /* 72px */
@@ -392,7 +393,8 @@ section.single-page h1 {
 section#portfolio {
   padding-bottom: 0;
 }
-section#portfolio h1 {
+section#portfolio h1,
+section#portfolio h2 {
   font-size: 3em;
   margin-bottom: 1em;
   margin-top: 0.5em;
