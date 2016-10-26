@@ -414,11 +414,15 @@ section#portfolio hgroup h3 {
 section#portfolio .entry-content {
   margin: 1em 0 2.5em;
 }
-section#portfolio .align {
-  text-align:center;
-  margin-top:10px;
-  font-size:6em;
+section#portfolio,
+section#postit {
+  .align {
+    text-align:center;
+    margin-top:10px;
+    font-size:6em;
+  }
 }
+
 /* Portfolio Image Hover */
 .mask2 img {
   margin: 0 auto;
